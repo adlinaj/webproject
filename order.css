@@ -1,0 +1,101 @@
+body {
+    background-color: burlywood;
+}
+
+header {
+    background: url('image/cakeheader2.jpg');
+    opacity: 0.9;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee690;
+    justify-content: space-between;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    border-bottom: 3px solid black;
+    padding-bottom: 4px;
+    transition: 0.3s ease 0.2s;
+}
+.cart {
+    float: right;
+    padding-right: 60px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.cart li{
+    list-style: none;
+    
+}
+.cart li span{
+    padding-left: 5px;
+}
+.cart li a{
+    padding: 5px;
+    background-color: rgb(221, 155, 67);
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.cart li a:hover {
+    background-color: #ffc79d;
+}
+
+.menu{
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.product{
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.add-cart{
+    position: absolute;
+    width: 100%;
+    background-color: #fff1d2;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+}
+.product:hover .cart1,
+.product:hover .cart2,
+.product:hover .cart3,
+.product:hover .cart4,
+.product:hover .cart5,
+.product:hover .cart6{
+    bottom: 90px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
